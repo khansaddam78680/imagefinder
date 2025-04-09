@@ -57,7 +57,7 @@ const UserForm = () => {
         </div>
         {topic === 'Other' && (
           <div>
-            <label>Enter your custom topic:</label>
+            <label>Enter your preferred topic:</label>
             <input
               type="text"
               value={customTopic}
